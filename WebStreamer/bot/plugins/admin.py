@@ -152,3 +152,8 @@ async def sts(c: Client, m: Message):
         await m.reply_text(text)
     else:
         await m.reply_text("Please Reply to a File")
+
+@StreamBot.on_message(filters.command("restart") & filters.private & filters.user(Var.OWNER_ID))
+async def restart(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await update.message.reply_text('Bot is restarting. See you soon!')
+    raise SystemExit()
