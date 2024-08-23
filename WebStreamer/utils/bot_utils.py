@@ -25,7 +25,7 @@ async def is_user_joined(message:Message,lang) -> bool:
             return False
     except UserNotParticipant:
         await message.reply_text(
-            text="<i>Jᴏɪɴ ᴍʏ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ 🔐</i>",
+            text="<b>Join my Updates Channel to Generate Link 🔐</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton("Jᴏɪɴ ɴᴏᴡ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
@@ -54,7 +54,7 @@ async def gen_link(m: Message, _id, name: list) -> tuple[InlineKeyboardMarkup, s
     Stream_Text=lang.STREAM_MSG_TEXT.format(file_name, file_size, stream_link, page_link, name[0], name[1])
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("🖥STREAM", url=page_link), InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ 📥", url=stream_link)]
+            [InlineKeyboardButton("🖥STREAM", url=page_link), InlineKeyboardButton("Download 📥", url=stream_link)]
             ]
         )
 
