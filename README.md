@@ -189,19 +189,29 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 ## User Commands
 
 `/start` : To check if the bot is alive or not.
+
 `/myfiles` : To see the list of files Uploaded by User
+
 `/tos` : To read TOS and accept it to continue
+
 `/info` : To get data regarding UserID, No. of Files , Plan
+
 `/getfile` : Fetch File using ID
+
 `/about` : To get Bot Info
 
 ## Admin Commands & Usage
 
 `/status` : To get No. of Users using the Bot.
+
 `/ban` : To Ban Users using the Bot. /ban {User_ID}
+
 `/unban` : To Unban Users from Using the Bot. /unban {User_ID}
+
 `/broadcast` : To Broadcast Message to all Users using the bot . /broadcast in reply to a post created.
+
 `/who` : To Get UserID of the User that uploaded the Post. /who in reply to the Post
+
 `/restart` : To restart Bot usually in case if you get connection errors.
 
 ## faQ
