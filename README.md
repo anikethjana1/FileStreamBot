@@ -122,7 +122,7 @@ PORT=8080
 
 `BOT_TOKEN` : Get the bot token from [@BotFather](https://telegram.dog/BotFather)
 
-`BIN_CHANNEL` : Create a new channel (private/public), post something in your channel. Forward that post to [@missrose_bot](https://telegram.dog/MissRose_bot) and **reply** `/id`. Now copy paste the forwarded channel ID in this field. 
+`BIN_CHANNEL` : Create a new group (private/public) and paste the id here. 
 
 `OWNER_ID` : Your Telegram User ID, Send `/id` to [@missrose_bot](https://telegram.dog/MissRose_bot) to get Your Telegram User ID
 
