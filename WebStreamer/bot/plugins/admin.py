@@ -1,5 +1,6 @@
 # This file is a part of FileStreamBot
-
+from telegram import Update
+from telegram.ext import ContextTypes
 import os
 import time
 import string
