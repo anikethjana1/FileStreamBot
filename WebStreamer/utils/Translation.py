@@ -13,14 +13,14 @@ class Language:
     available=['en', 'language_code']
 
     class en:
-    START_TEXT: str = """
+        START_TEXT: str = """
 <b>👋 Hey,</b>{}\n
 <b>I'm a Telegram Files Streaming Bot and Direct Links Generator.</b>\n
 <b>Click on Help to get more information.</b>\n
 <b><u>Warning</u></b>\n
 <b>🔞 18+ content leads to a permanent ban.</b>\n\n"""
 
-    HELP_TEXT: str = """
+        HELP_TEXT: str = """
 <b>- Send me any file or media from Telegram.</b>
 <b>- I will provide an external direct download link!</b>
 <i>- Download link with the fastest speed.</i>
@@ -28,13 +28,13 @@ class Language:
 <b>🔞 Pornographic content leads to a permanent ban.</b>\n
 <i>Contact the developer or report bugs</i> <b>: <a href='https://t.me/ajmods_bot</a></b>"""
 
-    ABOUT_TEXT: str = """
+        ABOUT_TEXT: str = """
 <b>⚜ My Name: Direct Link Generator</b>\n
 <b>🔸 Version: {}</b>\n
 <b>🔹 Last Updated: [23 August 2024]</b>
 """
 
-    STREAM_MSG_TEXT: str ="""
+        STREAM_MSG_TEXT: str ="""
 <i><u>Your Link is Generated!</u></i>\n
 <b>📂 File Name:</b> <b>{}</b>\n
 <b>📦 File Size:</b> {}\n
@@ -42,11 +42,11 @@ class Language:
 <b>🖥  Watch:</b> <b>{}</b>\n
 <b>Link Generated Using</b> <a href='https://t.me/{}'>{}</a>"""
 
-    BAN_TEXT: str = "__Sorry, you are banned from using me.__\n\n**Contact Developer They will help you.**"
+        BAN_TEXT: str = "__Sorry, you are banned from using me.__\n\n**Contact Developer They will help you.**"
 
-    LINK_LIMIT_EXCEEDED: str = "You have exceeded the number of links you can generate."
+        LINK_LIMIT_EXCEEDED: str = "You have exceeded the number of links you can generate."
     
-    INFO_TEXT: str = """User ID: <code>{}</code>
+        INFO_TEXT: str = """User ID: <code>{}</code>
 Plan: <code>{}</code>
 Links Used: <code>{}</code>
 Links Left: <code>{}</code>"""
